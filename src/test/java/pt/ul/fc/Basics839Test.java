@@ -19,6 +19,16 @@ class Basics839Test {
     }
 
     @Test
+    void testAbsolute(){
+        assertEquals (5, Basics839.absolute(-5));
+    }
+
+    @Test
+    void testValue(){
+        assertEquals(12,Basics839.surface(3,4));
+   }
+
+    @Test
     void toFahrenheitWorks() {
         assertEquals(212.0, Basics839.toFahrenheit(100.0), 1e-9);
         assertEquals(32.0, Basics839.toFahrenheit(0.0), 1e-9);

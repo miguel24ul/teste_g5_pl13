@@ -56,14 +56,14 @@ public class Basics839 {
      * Returns the area of a rectangle with the given width and height.
      */
     public static int surface(int width, int height) {
-        return 2 * (width + height);
+        return width *  height;
     }
 
     /**
      * Returns the absolute value of n.
      */
     public static int absolute(int n) {
-        return -Math.abs(n);
+        return Math.abs(n);
     }
 
     /**
@@ -72,4 +72,6 @@ public class Basics839 {
     public static boolean greaterThanZero(int value) {
         return value > 0;
     }
+
+    
 }
